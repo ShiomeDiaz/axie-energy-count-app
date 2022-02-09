@@ -45,7 +45,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(136, 193);
+            this.label1.Location = new System.Drawing.Point(180, 209);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 32);
             this.label1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // btMinusOne
             // 
-            this.btMinusOne.Location = new System.Drawing.Point(48, 229);
+            this.btMinusOne.Location = new System.Drawing.Point(92, 245);
             this.btMinusOne.Name = "btMinusOne";
             this.btMinusOne.Size = new System.Drawing.Size(75, 23);
             this.btMinusOne.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // btPlusOne
             // 
-            this.btPlusOne.Location = new System.Drawing.Point(178, 229);
+            this.btPlusOne.Location = new System.Drawing.Point(222, 245);
             this.btPlusOne.Name = "btPlusOne";
             this.btPlusOne.Size = new System.Drawing.Size(80, 23);
             this.btPlusOne.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // btNewGame
             // 
-            this.btNewGame.Location = new System.Drawing.Point(48, 331);
+            this.btNewGame.Location = new System.Drawing.Point(92, 347);
             this.btNewGame.Name = "btNewGame";
             this.btNewGame.Size = new System.Drawing.Size(210, 23);
             this.btNewGame.TabIndex = 3;
@@ -87,7 +87,7 @@
             this.labelRound.AutoSize = true;
             this.labelRound.BackColor = System.Drawing.Color.Transparent;
             this.labelRound.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRound.Location = new System.Drawing.Point(33, 55);
+            this.labelRound.Location = new System.Drawing.Point(99, 29);
             this.labelRound.Name = "labelRound";
             this.labelRound.Size = new System.Drawing.Size(112, 32);
             this.labelRound.TabIndex = 4;
@@ -100,7 +100,7 @@
             this.labelCountRound.BackColor = System.Drawing.Color.Transparent;
             this.labelCountRound.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCountRound.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelCountRound.Location = new System.Drawing.Point(172, 55);
+            this.labelCountRound.Location = new System.Drawing.Point(238, 29);
             this.labelCountRound.Name = "labelCountRound";
             this.labelCountRound.Size = new System.Drawing.Size(31, 32);
             this.labelCountRound.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.labelTittleEnergy.AutoSize = true;
             this.labelTittleEnergy.BackColor = System.Drawing.Color.Transparent;
             this.labelTittleEnergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTittleEnergy.Location = new System.Drawing.Point(87, 130);
+            this.labelTittleEnergy.Location = new System.Drawing.Point(130, 177);
             this.labelTittleEnergy.Name = "labelTittleEnergy";
             this.labelTittleEnergy.Size = new System.Drawing.Size(139, 32);
             this.labelTittleEnergy.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             // btNextRound
             // 
-            this.btNextRound.Location = new System.Drawing.Point(93, 283);
+            this.btNextRound.Location = new System.Drawing.Point(137, 299);
             this.btNextRound.Name = "btNextRound";
             this.btNextRound.Size = new System.Drawing.Size(134, 23);
             this.btNextRound.TabIndex = 7;
@@ -133,8 +133,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Intro.net.Properties.Resources.HD_wallpaper_axie_4_infinity;
-            this.ClientSize = new System.Drawing.Size(284, 400);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(392, 485);
             this.Controls.Add(this.btNextRound);
             this.Controls.Add(this.labelTittleEnergy);
             this.Controls.Add(this.labelCountRound);
@@ -143,6 +143,7 @@
             this.Controls.Add(this.btPlusOne);
             this.Controls.Add(this.btMinusOne);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

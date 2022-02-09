@@ -11,8 +11,12 @@ using System.Windows.Forms;
 namespace Intro.net
 {
     public partial class Form1 : Form
-    { int initCountEnergy = 3;
-      int initCountRound = 1;
+    {   int initCountEnergy = 0;
+        int initCountRound = 1;
+        int defaultInitEnergy = 3;
+        int minEnergy = 0;
+        int maxEnergy = 10;
+
 
         public Form1()
         {
@@ -22,7 +26,7 @@ namespace Intro.net
 
         private void btMinusOne_Click(object sender, EventArgs e)
         {
-            if (initCountEnergy > 0)
+            if (initCountEnergy > minEnergy)
                 initCountEnergy = initCountEnergy - 1;
             label1.Text = Convert.ToString(initCountEnergy);
 
@@ -31,19 +35,19 @@ namespace Intro.net
 
         private void btPlusOne_Click(object sender, EventArgs e)
         {
-            if (initCountEnergy < 10)
+            if (initCountEnergy < maxEnergy)
                 initCountEnergy = initCountEnergy + 1;
             label1.Text = Convert.ToString(initCountEnergy);
 
         }
         private void btNextRound_Click(object sender, EventArgs e)
         {
-            if (initCountEnergy < 10) {
+            if (initCountEnergy < maxEnergy) {
                 initCountEnergy = initCountEnergy + 2;
             }
-            if (initCountEnergy > 10)
+            if (initCountEnergy > maxEnergy)
             {
-                initCountEnergy = 10;
+                initCountEnergy = maxEnergy;
             }
 
             label1.Text = Convert.ToString(initCountEnergy);
@@ -53,7 +57,7 @@ namespace Intro.net
 
         private void btNewGame_Click(object sender, EventArgs e)
         {
-            initCountEnergy = 3;
+            initCountEnergy = defaultInitEnergy;
             label1.Text = Convert.ToString(initCountEnergy);
             initCountRound = 1;
             labelCountRound.Text = Convert.ToString(initCountRound);
