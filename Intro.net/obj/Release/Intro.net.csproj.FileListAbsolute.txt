@@ -1,0 +1,11 @@
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\bin\Release\Axiecount.exe.config
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\bin\Release\Axiecount.exe
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\bin\Release\Axiecount.pdb
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.csproj.AssemblyReference.cache
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.csproj.SuggestedBindingRedirects.cache
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.Form1.resources
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.Properties.Resources.resources
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.csproj.GenerateResource.cache
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Intro.net.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Axiecount.exe
+C:\Users\Felipe\source\repos\Intro.net\Intro.net\obj\Release\Axiecount.pdb
